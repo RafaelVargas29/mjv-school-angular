@@ -1,0 +1,15 @@
+>Toda vez que pegar um projeto angular de outro lugar (que não seja instalado diretamente no computador)
+ deve-ser dar um "npm install" na pasta do projeto
+
+------------COMANDOS ng NO ANGULAR-------------
+>ng serve: Inicia um projeto
+>ng serve -o: inicia um projeto e já abre ele numa guia do navegador
+>ng generate component nome: gera um novo componente no angular
+>ng generate component nomeda pasta/nomedocomponente: gera um novo componente no angular na pasta      escolhida
+>ng g c nome: abreviação de "ng generate component", também funciona para gerar um novo componente
+>ng generate module: cria um novo módulo
+>ng g m: abreviação de ng generate module
+>ng g m nomedapasta/nomedomodulo: cria um modulo na pasta escolhida
+
+--------------COMPONENTES----------------------
+>Toda ve que eu for utilizar um componente eu tenho que importar ele no arquivo de componentes.ts e adicionar o nome do componente no @ngmodule declarations
